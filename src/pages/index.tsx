@@ -1,8 +1,8 @@
 import Head from 'next/head'
 
 type Props = {
-  title: string;
-};
+  title: string
+}
 
 export default function Home({ title = 'Next.js Boilerplate' }: Props) {
   return (
@@ -15,9 +15,8 @@ export default function Home({ title = 'Next.js Boilerplate' }: Props) {
       <main>
         <h1>{title}</h1>
 
-        <p >
-          Get started by editing{' '}
-          <code>pages/index.js</code>
+        <p>
+          Get started by editing <code>pages/index.js</code>
         </p>
       </main>
     </div>
