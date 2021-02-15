@@ -1,9 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render H1 correctly 1`] = `
-<main>
-  <h1>
+<main
+  class="styles__Wrapper-sc-19t6oi2-0 ggRklg"
+>
+  <img
+    alt="Image of an atom and written React Avançado at the side."
+    class="styles__Logo-sc-19t6oi2-1 jHCyrD"
+    src="/img/logo.svg"
+  />
+  <h1
+    class="styles__Title-sc-19t6oi2-2 ecKbGV"
+  >
     Next.js Boilerplate
   </h1>
+  <h2
+    class="styles__Description-sc-19t6oi2-3 jHnXMa"
+  >
+    TypeScript, ReactJS, NextJS and Styled Components
+  </h2>
+  <img
+    alt="A developer in front of a screen with code."
+    class="styles__Illustration-sc-19t6oi2-4 fDxMgb"
+    src="/img/hero-illustration.svg"
+  />
 </main>
 `
