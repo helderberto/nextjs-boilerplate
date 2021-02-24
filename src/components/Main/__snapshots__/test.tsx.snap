@@ -1,27 +1,70 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render H1 correctly 1`] = `
+.c0 {
+  background-color: #06092b;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  width: 25rem;
+  margin-bottom: 2rem;
+}
+
+.c2 {
+  font-size: 2.5rem;
+}
+
+.c3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.c4 {
+  margin-top: 3rem;
+  width: min(30rem,100%);
+}
+
 <main
-  class="styles__Wrapper-sc-19t6oi2-0 ggRklg"
+  class="c0"
 >
   <img
     alt="Image of an atom and written React Avançado at the side."
-    class="styles__Logo-sc-19t6oi2-1 jHCyrD"
+    class="c1"
     src="/img/logo.svg"
   />
   <h1
-    class="styles__Title-sc-19t6oi2-2 ecKbGV"
+    class="c2"
   >
     Next.js Boilerplate
   </h1>
   <h2
-    class="styles__Description-sc-19t6oi2-3 jHnXMa"
+    class="c3"
   >
     TypeScript, ReactJS, NextJS and Styled Components
   </h2>
   <img
     alt="A developer in front of a screen with code."
-    class="styles__Illustration-sc-19t6oi2-4 fDxMgb"
+    class="c4"
     src="/img/hero-illustration.svg"
   />
 </main>
