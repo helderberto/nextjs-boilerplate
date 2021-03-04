@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS Boilerplate
+
+This is a simple boilerplate with TypeScript, React, NextJS and Styled Components.
+
+## Create your Own Project
+
+<p align="center">
+  <img height="300" src="https://media.giphy.com/media/WXraj8aJHXUP7kRDbJ/giphy.gif" />
+</p>
+
+Execute the following command to create your project:
+
+``` bash
+npx create-next-app -e https://github.com/helderburato/nextjs-boilerplate
+
+# or
+
+yarn create next-app -e https://github.com/helderburato/nextjs-boilerplate
+```
 
 ## Getting Started
 
