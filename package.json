@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
+    "format": "prettier --write .",
     "test": "jest --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
     "generate": "yarn plop --plopfile ./generators/plopfile.js",
