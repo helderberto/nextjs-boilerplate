@@ -68,4 +68,4 @@ exports[`<Main /> should render H1 correctly 1`] = `
     src="/img/hero-illustration.svg"
   />
 </main>
-`
+`;
