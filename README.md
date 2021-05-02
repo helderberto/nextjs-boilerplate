@@ -10,7 +10,7 @@ This is a simple boilerplate with TypeScript, React, NextJS and Styled Component
 
 Execute the following command to create your project:
 
-``` bash
+```bash
 npx create-next-app -e https://github.com/helderburato/nextjs-boilerplate
 
 # or

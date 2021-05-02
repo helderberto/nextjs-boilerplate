@@ -7,14 +7,14 @@ export default {
   title: 'Main',
   args: {
     title: 'Test Title',
-    description: 'Test Description'
-  }
+    description: 'Test Description',
+  },
 } as Meta
 
 export const Basic: Story = (args) => <Main {...args} />
 Basic.args = {
   title: 'Basic Title',
-  description: 'Basic Description'
+  description: 'Basic Description',
 }
 
 export const Default: Story = (args) => <Main {...args} />
