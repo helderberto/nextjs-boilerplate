@@ -2999,10 +2999,10 @@
   dependencies:
     core-js "^3.8.2"
 
-"@storybook/react-docgen-typescript-plugin@1.0.2-canary.3c70e01.0":
-  version "1.0.2-canary.3c70e01.0"
-  resolved "https://registry.yarnpkg.com/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.3c70e01.0.tgz#de49451523b86640463acc6028985ca11d8a63d1"
-  integrity sha512-go1LO+iM6qLGhgqvEoEpw339/kf2YBX86aG2JewWwlHCO0YyyYdlsdZd3KkB5MVtudyK7mtrcNDq0k/EIaB2JA==
+"@storybook/react-docgen-typescript-plugin@1.0.2-canary.253f8c1.0":
+  version "1.0.2-canary.253f8c1.0"
+  resolved "https://registry.yarnpkg.com/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.253f8c1.0.tgz#f2da40e6aae4aa586c2fb284a4a1744602c3c7fa"
+  integrity sha512-mmoRG/rNzAiTbh+vGP8d57dfcR2aP+5/Ll03KKFyfy5FqWFm/Gh7u27ikx1I3LmVMI8n6jh5SdWMkMKon7/tDw==
   dependencies:
     debug "^4.1.1"
     endent "^2.0.1"
@@ -3012,19 +3012,19 @@
     react-docgen-typescript "^2.0.0"
     tslib "^2.0.0"
 
-"@storybook/react@^6.3.1":
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.3.1.tgz#99e31dd3dcfd548d74ac90abd6b0932974827ef9"
-  integrity sha512-P3neN04YWpIyJ0kLq5UWo390wwM9HG6hVOJUi1uw9lMFbZoy/oVM77ot+77Mtfq3S58Rv51iohFF9DAkxPFNzA==
+"@storybook/react@^6.3.2":
+  version "6.3.2"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.3.2.tgz#6c9b2e010874ccc991a511cfed87b134ef02bc6d"
+  integrity sha512-AwuXzvu6zKSZnWFgYWxvP1QumnJ/8VChZJ1/pCEW3IGqxtSBd7KAF7EjlmS6CqAnWP+zp9jUr7It1P9631CwNQ==
   dependencies:
     "@babel/preset-flow" "^7.12.1"
     "@babel/preset-react" "^7.12.10"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.4.3"
-    "@storybook/addons" "6.3.1"
-    "@storybook/core" "6.3.1"
-    "@storybook/core-common" "6.3.1"
-    "@storybook/node-logger" "6.3.1"
-    "@storybook/react-docgen-typescript-plugin" "1.0.2-canary.3c70e01.0"
+    "@storybook/addons" "6.3.2"
+    "@storybook/core" "6.3.2"
+    "@storybook/core-common" "6.3.2"
+    "@storybook/node-logger" "6.3.2"
+    "@storybook/react-docgen-typescript-plugin" "1.0.2-canary.253f8c1.0"
     "@storybook/semver" "^7.3.2"
     "@types/webpack-env" "^1.16.0"
     babel-plugin-add-react-displayname "^0.0.5"
