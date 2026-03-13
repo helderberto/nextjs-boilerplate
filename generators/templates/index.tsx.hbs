@@ -1,9 +1,9 @@
-import * as S from './styles'
+import styles from './{{pascalCase name}}.module.css';
 
 const {{pascalCase name}} = () => (
-  <S.Wrapper>
+  <div className={styles.wrapper}>
     <h1>{{pascalCase name}}</h1>
-  </S.Wrapper>
-)
+  </div>
+);
 
-export default {{pascalCase name}}
+export default {{pascalCase name}};

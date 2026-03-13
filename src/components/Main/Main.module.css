@@ -1,6 +1,4 @@
-import styled from 'styled-components'
-
-export const Wrapper = styled.main`
+.wrapper {
   background-color: #231651;
   color: #fff;
   width: 100%;
@@ -11,13 +9,13 @@ export const Wrapper = styled.main`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-`
+}
 
-export const Title = styled.h1`
+.title {
   font-size: 2.5rem;
-`
+}
 
-export const Description = styled.h2`
+.description {
   font-size: 2rem;
   font-weight: 400;
-`
+}

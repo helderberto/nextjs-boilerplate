@@ -16,13 +16,13 @@ module.exports = function (plop) {
       },
       {
         type: 'add',
-        path: '../src/components/{{pascalCase name}}/stories.tsx',
-        templateFile: 'templates/stories.tsx.hbs',
+        path: '../src/components/{{pascalCase name}}/{{pascalCase name}}.module.css',
+        templateFile: 'templates/module.css.hbs',
       },
       {
         type: 'add',
-        path: '../src/components/{{pascalCase name}}/styles.ts',
-        templateFile: 'templates/styles.ts.hbs',
+        path: '../src/components/{{pascalCase name}}/stories.tsx',
+        templateFile: 'templates/stories.tsx.hbs',
       },
       {
         type: 'add',
@@ -30,5 +30,5 @@ module.exports = function (plop) {
         templateFile: 'templates/test.tsx.hbs',
       },
     ],
-  })
-}
+  });
+};
