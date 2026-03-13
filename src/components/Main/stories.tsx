@@ -1,20 +1,20 @@
-import { Story, Meta } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/nextjs';
 
-import Main from '.'
+import Main from '.';
 
-export default {
+const meta: Meta<typeof Main> = {
   component: Main,
   title: 'Main',
+};
+
+export default meta;
+type Story = StoryObj<typeof Main>;
+
+export const Default: Story = {};
+
+export const Custom: Story = {
   args: {
-    title: 'Test Title',
-    description: 'Test Description',
+    title: 'Custom Title',
+    description: 'Custom Description',
   },
-} as Meta
-
-export const Basic: Story = (args) => <Main {...args} />
-Basic.args = {
-  title: 'Basic Title',
-  description: 'Basic Description',
-}
-
-export const Default: Story = (args) => <Main {...args} />
+};
